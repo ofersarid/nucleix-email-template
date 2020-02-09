@@ -2,9 +2,77 @@
 <html lang="en" >
 <head >
     <meta charset="UTF-8" >
-    <title >.gitignore</title >
+    <style type="text/css" >
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 30px;
+            color: #565859;
+            position: relative;
+        }
+
+        #texture {
+            background-image: url("./texture.png");
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 10px;
+            background-position: top center;
+        }
+
+        #logo {
+            width: 200px;
+            max-width: 100%;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 20px;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            line-height: 1.8em;
+        }
+
+        a {
+            color: #18BBE3;
+        }
+
+        #website {
+            display: block;
+        }
+    </style >
 </head >
 <body >
-
+<div id="texture" ></div>
+<img id="logo" src="./logo.svg" />
+<h1 >we received your sign-up info</h1 >
+<ul >
+    <li >Hello {user_name}</li >
+    <li >we received your sign-up info</li >
+    <li >The downloads section in the customer area will be available for you after we <b >manually approve your
+                                                                                           account</b >.
+    </li >
+    <li >You will be notified at approval.</li >
+    <br/>
+    <li>Thanks,</li>
+    <li>The Nucleix team.</li>
+    <a id="website" href="https://nucleix.com/" target="_blank">www.nucleix.com</a>
+</ul >
 </body >
 </html >
